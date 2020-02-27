@@ -14,8 +14,8 @@ on:
   push:
     branches:
       - master
-#    paths:
-#      - '.config'
+    paths:
+      - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
@@ -23,7 +23,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: dev-19.07
+  REPO_BRANCH: master
   CONFIG_FILE: .config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
